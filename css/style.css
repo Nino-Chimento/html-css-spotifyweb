@@ -157,7 +157,12 @@ hr {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+@media screen and (max-width:552px) {
+  .no-display-xs {
+    display: none;
+  }
 
+}
 /* main content */
 .main-content {
   width: calc(100% - 320px);
