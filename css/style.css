@@ -80,11 +80,31 @@ body {
   height: 100%;
   background: blue;
 }
-
-.main-nav-header img{
+.line-green::before{
+  content: "|";
+  color: green;
+  width: 3px;
+}
+.logo_spoty{
 width: 50%;
 padding: 10px;
 }
+.loghi-under-spoty{
+  height: 20px;
+  padding:0 10px;
+}
+.loghi-menu {
+  line-height: 20px;
+  vertical-align: middle;
+  color: white;
+}
+
+.loghi-menu a {
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
