@@ -206,7 +206,11 @@ hr {
   .main-content {
     width: calc(100% - 60px);
   }
+  .call-to-action{
+    width: calc(100% - 60px)
+  }
 }
+
 @media screen and ( min-width:553px) {
   .no-display-lg{
     display: none;
