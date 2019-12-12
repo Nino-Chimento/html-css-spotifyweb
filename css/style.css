@@ -293,6 +293,7 @@ hr {
   color: white;
   font-size: 1em;
   font-weight: bold;
+  margin-top: 10px;
 
 }
 .box-canzoni p {
@@ -335,3 +336,13 @@ hr {
    transform: translate(-50%,-50%);
    display: none;
  }
+@media screen and (max-width:878px) {
+.contenitore-prima-riga-canzoni{
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+.box-canzoni {
+  width: 25%;
+}
+}
