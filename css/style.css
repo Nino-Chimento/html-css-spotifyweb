@@ -161,8 +161,12 @@ hr {
   .no-display-xs {
     display: none;
   }
-
+.fa-arrow-circle-down {
+  width: ;
+  padding-bottom: 10px;
 }
+}
+
 /* main content */
 .main-content {
   width: calc(100% - 320px);
