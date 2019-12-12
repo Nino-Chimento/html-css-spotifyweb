@@ -174,6 +174,10 @@ padding: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
 }
+.playlist a {
+  text-decoration: none;
+  color: #3A3A3A;
+}
 /* /playlist */
 /* footer navbar */
 .main-nav-footer a {
@@ -189,6 +193,9 @@ hr {
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.main a:hover {
+  color:white;
 }
 @media screen and (max-width:552px) {
   .no-display-xs {
