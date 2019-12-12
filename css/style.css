@@ -78,6 +78,7 @@
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 3;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -346,3 +347,9 @@ hr {
   width: 25%;
 }
 }
+@media screen and (max-width:639px) {
+  .box-canzoni {
+    width: 50%;
+  }
+}
+/* /prima riga canzoni */
