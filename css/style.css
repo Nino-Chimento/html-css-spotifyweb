@@ -293,6 +293,7 @@ hr {
 .box-canzoni p {
   color: #3A3A3A;
 }
+
 .box-canzoni img {
   width: 50%;
 }
@@ -308,6 +309,19 @@ hr {
   color: white;
   display: none;
 }
- .box-img-canzoni:hover i{
+ .box-img-canzoni:hover i {
    display: block;
+ }
+ .box-img-canzoni:hover .opacity {
+   display: block;
+ }
+ .opacity{
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 50%;
+   height: 100%;
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   display: none;
  }
