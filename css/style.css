@@ -291,10 +291,14 @@ hr {
 }
 .box-canzoni  h2 {
   color: white;
+  font-size: 1em;
+  font-weight: bold;
+
 }
 .box-canzoni p {
   color: #3A3A3A;
   padding-top: 10px;
+  font-size: 0.8em;
 }
 
 .box-canzoni img {
