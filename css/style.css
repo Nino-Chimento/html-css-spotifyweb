@@ -187,7 +187,7 @@ hr {
 
   background-color: #3A3A3A;
   display: block;
-  width: 70%;
+  width: 90%;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -279,23 +279,26 @@ hr {
   text-decoration: none;
   padding-left: 10px;
   padding-bottom: 10px;
-
+  margin-bottom: 50px;
   font-size: 1.5em;
   font-weight: bold;
 }
 /* righe canzoni */
 .contenitore-prima-riga-canzoni{
   display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
 }
 .box-canzoni  h2 {
   color: white;
 }
 .box-canzoni p {
   color: #3A3A3A;
+  padding-top: 10px;
 }
 
 .box-canzoni img {
-  width: 50%;
+  width: 80%;
 }
 .box-img-canzoni  {
   position:relative;
@@ -309,6 +312,9 @@ hr {
   color: white;
   display: none;
 }
+ .box-img-canzoni:hover{
+   cursor: pointer;
+ }
  .box-img-canzoni:hover i {
    display: block;
  }
@@ -317,7 +323,7 @@ hr {
  }
  .opacity{
    background-color: rgba(0, 0, 0, 0.5);
-   width: 50%;
+   width: 80%;
    height: 100%;
    position: absolute;
    top:50%;
