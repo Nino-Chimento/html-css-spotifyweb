@@ -296,7 +296,11 @@ hr {
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+.box-canzoni {
+  flex-basis: calc(100%/6)
 }
 .box-canzoni  h2 {
   color: white;
@@ -316,6 +320,7 @@ hr {
 }
 .box-img-canzoni  {
   position:relative;
+
 }
 .box-img-canzoni i {
   position: absolute;
@@ -325,6 +330,7 @@ hr {
   font-size: 4em;
   color: white;
   display: none;
+
 }
  .box-img-canzoni:hover{
    cursor: pointer;
@@ -363,3 +369,10 @@ hr {
   }
 }
 /* /prima riga canzoni */
+/* seconda riga */
+.subtitle {
+  margin-left: 10px;
+  color: #3A3A3A;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
