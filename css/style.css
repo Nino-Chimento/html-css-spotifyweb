@@ -392,6 +392,7 @@ hr {
   display: flex;
   justify-content:flex-start;
   align-items: center;
+
 }
 
 
@@ -445,6 +446,26 @@ hr {
   padding: 10px;
   color: white;
 }
+.contenitor-icons i:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.play-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.play-time p {
+  color: #3A3A3A;
+}
+.bar-time {
+  width: 60%;
+  margin: 10px;
+  height: 3px;
+  background-color: white;
+}
+/* /play footer */
 .opzioni-footer {
   height: 90px;
 
