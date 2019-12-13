@@ -108,10 +108,9 @@ body{
   height: 100%;
   background:#000000;
 }
-.line-green::before{
-  content: "|";
-  color: #ADFF2F;
-  font-size: 1.2em;
+.line-green{
+  display: inline-block;
+  border-left: 1px solid green;
 }
 .logo_spoty{
 width: 50%;
