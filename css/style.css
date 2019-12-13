@@ -253,6 +253,10 @@ hr {
   padding: 10px;
   font-size: 0.8em;
 }
+.under-line-green {
+  position: relative;
+  display: block;
+}
 
 .titoli-canzoni {
   color: white;
@@ -438,7 +442,7 @@ hr {
   color: #3A3A3A;
 }
 .bar-time {
-  width: 60%;
+  width: 65%;
   margin: 10px;
   height: 3px;
   background-color: white;
@@ -448,6 +452,7 @@ hr {
   width: 70%;
   background-color: rgba(0, 0, 0, 0.5);
   margin-left: 30%;
+  position: relative;
 }
 .bar-time:hover {
   cursor: pointer;
@@ -456,6 +461,16 @@ hr {
 .bar-time:hover .bar-time-opacity{
   background-color: rgba(0, 0, 0, 1);
 }
+.bar-time-opacity i {
+  color: white;
+  position: absolute;
+  top:-5px;
+  left:0;
+  display: none;
+}
+ .bar-time:hover .bar-time-opacity i{
+   display: block;
+ }
 /* /play footer */
 /* opzioni footer */
 .opzioni-footer {
