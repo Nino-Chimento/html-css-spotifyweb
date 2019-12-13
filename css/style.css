@@ -465,6 +465,12 @@ hr {
   height: 3px;
   background-color: white;
 }
+.bar-time-opacity{
+  height: 100%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 30%;
+}
 /* /play footer */
 .opzioni-footer {
   height: 90px;
