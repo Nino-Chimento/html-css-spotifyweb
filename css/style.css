@@ -389,11 +389,11 @@ hr {
 }
 /* primo div footer */
 .canzone-footer {
-  height: 90px;
   display: flex;
   justify-content:flex-start;
   align-items: center;
 }
+
 
 .canzone-footer img {
   width: 15%;
@@ -429,12 +429,22 @@ hr {
 }
 }
 /* /primo div footer */
+/* playfooter */
 .play-footer {
   height: 90px;
-  background-color: orange;
-  flex-grow: 2;
-}
 
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.contenitor-icons{
+  display: flex;
+  justify-content: center;
+}
+.contenitor-icons i {
+  padding: 10px;
+  color: white;
+}
 .opzioni-footer {
   height: 90px;
 
