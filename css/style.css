@@ -295,6 +295,7 @@ hr {
 .contenitore-prima-riga-canzoni{
   display: flex;
   margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: space-around;
 }
 .box-canzoni  h2 {
