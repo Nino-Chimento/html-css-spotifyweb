@@ -474,6 +474,10 @@ hr {
 }
 .bar-time:hover {
   cursor: pointer;
+  background-color: lime;
+}
+.bar-time:hover .bar-time-opacity{
+  background-color: rgba(0, 0, 0, 1);
 }
 /* /play footer */
 /* opzioni footer */
@@ -506,4 +510,8 @@ hr {
 }
 .volume:hover{
   cursor: pointer;
+  background-color: lime;
+}
+.volume:hover .opacity-volume{
+  background-color:rgba(0, 0, 0, 1);
 }
