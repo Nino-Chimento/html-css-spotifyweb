@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 .wrapper {
@@ -276,7 +278,8 @@ hr {
 }
 
 .box-canzoni {
-  flex-basis: calc(100%/6)
+  flex-basis: calc(100%/6);
+  overflow:hidden;
 }
 .box-canzoni  h2 {
   color: white;
@@ -311,6 +314,7 @@ hr {
  .box-img-canzoni:hover{
    cursor: pointer;
    transform: scale(1.2);
+   overflow: hidden;
  }
 
  .box-img-canzoni:hover i {
