@@ -254,9 +254,19 @@ hr {
   padding: 10px;
   font-size: 0.8em;
 }
-.under-line-green {
+.line-green-under {
   position: relative;
-  display: block;
+
+}
+.line-green-under::before {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: lime;
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
 }
 
 .titoli-canzoni {
