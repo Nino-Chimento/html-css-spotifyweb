@@ -279,7 +279,7 @@ hr {
   font-weight: bold;
   text-align: justify;
 }
-@media screen and(max-width:420px) {
+@media screen and (max-width:420px) {
   .titoli-canzoni {
     font-size: 1.2em;
   }
@@ -356,6 +356,9 @@ hr {
 }
 .box-canzoni {
   flex-basis: calc(100%/4);
+}
+.display-md-none {
+  display: none;
 }
 }
 @media screen and (max-width:639px) {
