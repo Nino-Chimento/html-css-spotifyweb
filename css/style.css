@@ -195,10 +195,10 @@ hr {
 .main a:hover {
   color:white;
 }
-/* @media screen and (max-width:639px) {
+@media screen and (max-width:639px) {
   .no-display-xs {
     display: none;
-  } */
+  }
   .fa-arrow-circle-down{
     width: 100%;
     margin-bottom: 5px;
