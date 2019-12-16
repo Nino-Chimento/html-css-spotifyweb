@@ -195,10 +195,10 @@ hr {
 .main a:hover {
   color:white;
 }
-@media screen and (max-width:639px) {
+/* @media screen and (max-width:639px) {
   .no-display-xs {
     display: none;
-  }
+  } */
   .fa-arrow-circle-down{
     width: 100%;
     margin-bottom: 5px;
@@ -357,9 +357,9 @@ hr {
 .box-canzoni {
   flex-basis: calc(100%/4);
 }
-.display-md-none {
+/* .display-md-none {
   display: none;
-}
+} */
 }
 @media screen and (max-width:639px) {
   .box-canzoni {
@@ -540,8 +540,8 @@ hr {
 .volume:hover .opacity-volume i{
   display: block;
 }
-@media screen and (max-height:350px) {
+/* @media screen and (max-height:350px) {
   .no-display-height {
     display: none;
   }
-}
+} */
